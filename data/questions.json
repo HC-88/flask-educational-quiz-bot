@@ -1,0 +1,85 @@
+{
+  "python": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is the output of `type(10)` in Python?",
+      "options": ["<class 'int'>", "<class 'float'>", "<class 'str'>", "<class 'number'>"],
+      "answer": "<class 'int'>"
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "Which keyword is used to define a function in Python?",
+      "options": ["func", "define", "def", "function"],
+      "answer": "def"
+    },
+    {
+      "id": 3,
+      "difficulty": "medium",
+      "question": "Which of the following is a mutable data type in Python?",
+      "options": ["Tuple", "String", "List", "Integer"],
+      "answer": "List"
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "question": "What does the `len()` function return for a string?",
+      "options": ["Its memory size", "The number of characters", "The last index", "Its data type"],
+      "answer": "The number of characters"
+    },
+    {
+      "id": 5,
+      "difficulty": "hard",
+      "question": "Which of the following methods removes and returns the last item from a list?",
+      "options": ["pop()", "remove()", "delete()", "clear()"],
+      "answer": "pop()"
+    }
+  ],
+  "history": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "Who was the first President of the United States?",
+      "options": ["Abraham Lincoln", "Thomas Jefferson", "George Washington", "John Adams"],
+      "answer": "George Washington"
+    },
+    {
+      "id": 2,
+      "difficulty": "medium",
+      "question": "In which year did World War II end?",
+      "options": ["1942", "1945", "1950", "1939"],
+      "answer": "1945"
+    },
+    {
+      "id": 3,
+      "difficulty": "hard",
+      "question": "The ancient city of Carthage was located in which modern-day country?",
+      "options": ["Greece", "Tunisia", "Egypt", "Italy"],
+      "answer": "Tunisia"
+    }
+  ],
+  "science": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What is the chemical symbol for Water?",
+      "options": ["O2", "H2O", "CO2", "NaCl"],
+      "answer": "H2O"
+    },
+    {
+      "id": 2,
+      "difficulty": "medium",
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Saturn", "Mars", "Jupiter"],
+      "answer": "Mars"
+    },
+    {
+      "id": 3,
+      "difficulty": "hard",
+      "question": "What is the powerhouse of the cell?",
+      "options": ["Nucleus", "Ribosome", "Mitochondria", "Endoplasmic Reticulum"],
+      "answer": "Mitochondria"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Bot - Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Optional: Google Fonts for better look -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz Bot 🤖</h1>
+        <p class="subtitle">Test your knowledge across different subjects.</p>
+        
+        <form method="POST">
+            <label class="form-label">Choose a subject to start:</label>
+            <select name="subject" class="custom-select">
+                <option value="python">🐍 Python Programming</option>
+                <option value="history">🏛️ World History</option>
+                <option value="science">🔭 General Science</option>
+            </select>
+            <button type="submit" class="submit-btn">Start Challenge</button>
+        </form>
+    </div>
+</body>
+</html>

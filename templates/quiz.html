@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Quiz in Progress</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <p>Question {{ index }}</p>
+        <h2>{{ question.question }}</h2>
+        <form method="POST">
+            {% for option in question.options %}
+                <label class="option">
+                    <input type="radio" name="answer" value="{{ option }}" required> {{ option }}
+                </label><br>
+            {% endfor %}
+            <button type="submit">Submit Answer</button>
+        </form>
+    </div>
+</body>
+</html>
